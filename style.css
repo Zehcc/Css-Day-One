@@ -4,14 +4,6 @@
     font-size: 18px;
 }
 
-.welcome-tittle{
-    font-size: 50px;
-}
-
-.welcome-message {
-    font-size: 22px;
-}
-
 .left-content{
    float:left; 
    width: 35%;
@@ -24,8 +16,16 @@
     width: 60%;
 }
 
-.imagen{
+.image{
     max-width: 100%;  
+}
+
+.welcome-tittle{
+    font-size: 50px;
+}
+
+.welcome-message {
+    font-size: 22px;
 }
 
 input:focus {
