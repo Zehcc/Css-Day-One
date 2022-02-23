@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Mailchimp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="left-content">
+        <img class="imagen" src="perroCamino.png" alt="Pelota futbol">
+    </div>
+    <div class="right-content">
+
+        <header>
+            <div>
+                <h1 class="welcome-tittle">Camino de Santiago con perro</h1>
+                <p class="welcome-message">¡Bienvenido al camino de Santiago con perro! Hemos creado una solicitud para formar parte un grupo de personas que quieran hacer el camino con su mejor amigo. 
+                    Rellena el siguiente formulario para realizar la reserva de plaza. En caso de haberlo rellenado anteriormente, <a class="log" href="#">haz clic aquí</a> 
+                    para conocer el estado 
+                    de tu solicitud.
+                </p>
+            </div>
+        </header>
+        <main>
+            <div>
+                <form action="/">
+                    <label for="name">
+                        <p>Nombre</p>
+                        <input class="entry" name="name" type="text"></input>
+                    </label>
+                    <label for="petName">
+                        <p>Nombre de tu mascota</p>
+                        <input class="entry" name="petName" type="text"></input>
+                    </label>
+                    <label for="email">
+                        <p>Correo de contacto</p>
+                        <input class="entry" name="email" type="text"></input>
+                    </label>
+                </form>
+            </div>
+            <div>
+                <ul class="puntos-list">
+                        <li class="green">Mayores de edad</li>
+                        <li class="green">Vacunados covid</li>
+                        <li class="green">Equipamiento adecuado</li>
+                        <li class="red">Mascotas sueltas</li>
+                        <li class="red">Mascotas sin vacunar</li>
+                </ul>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enviar solicitud"></input>
+            </div>
+            <div class="check">
+                <label ><input type="checkbox" id="cbox1" value="first_checkbox"> Recibir notificaciones o modificaciones</label>
+            </div>
+        </main>
+        <footer>
+            <div class="terminos">Clicando el botón de "Enviar solicitud", aceptas los <a href="#">Terminos de uso</a> y la <a href="#">Política de privacidad.</a></div>
+        </footer>
+
+        </div>
+        
+         
+    </div>
+    
+</body>
+</html>

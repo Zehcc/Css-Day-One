@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+* {
+    font-family: 'Redressed', cursive;
+    font-size: 18px;
+}
+
+.welcome-tittle{
+    font-size: 50px;
+}
+
+.welcome-message {
+    font-size: 22px;
+}
+
+.left-content{
+   float:left; 
+   width: 35%;
+   margin-left: 1%;
+   margin-top: 1%;
+}
+
+.right-content {
+    float:right;
+    width: 60%;
+}
+
+.imagen{
+    max-width: 100%;  
+}
+
+input:focus {
+    color: red;
+  }
+
+a:hover {
+    color: orange;
+}
+
+
+.entry{
+    padding: 5px;
+
+}
+
+.button {
+    float: left;
+}
+
+.check {
+    margin-left: 150px;
+}
+
+ul {
+    list-style: none;
+columns: 2;
+content: "🐶";
+padding-left: 0;
+}
+
+.puntos-list li::before {
+    list-style: none;
+    content: "🐶";
+ }
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.terminos{
+    margin-top: 80px;
+    font-size: 14px;
+}
